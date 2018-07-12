@@ -22,6 +22,9 @@
                                 <rect key="frame" x="119" y="286" width="90" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="BOB BROWN"/>
+                                <connections>
+                                    <segue destination="YaN-51-Rtt" kind="show" id="Xcu-dc-hak"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Git Hub" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WfT-dn-rom">
                                 <rect key="frame" x="119" y="414" width="186" height="54"/>
