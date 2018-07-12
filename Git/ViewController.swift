@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController
     
     // Always properly comment a program!
+    // Rachel is smart!
     
 {
 
