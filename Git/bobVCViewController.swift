@@ -8,14 +8,25 @@
 
 import UIKit
 
-class bobVCViewController: UIViewController
+class bobVCViewController: UIViewController, UITableViewDelegate, UITableViewDataSource
 {
-
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
         
-        view.backgroundColor = .blue
+        view.backgroundColor = .orange
         
     }
+   
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        <#code#>
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        <#code#>
+    }
+    
+
+    
 }
